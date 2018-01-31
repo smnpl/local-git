@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Welcome</title>
+<script type="text/javascript">
+function test(){ 
+	document.getElementById("inputBox").value=	"asdfasdfasdfasdf";
+	document.getElementById("hello").innerHTML=	"asdfasdfasdfasdf ASDFASDF";
+}
+function selectBox11(sadffasfasfdadsfasdf){
+	alert(sadffasfasfdadsfasdf);
+	alert('test');
+}
+</script>
+</head>
+<body>
+<form name="form" method="post">
+<table>	
+	<tr>
+		<td>
+			<input id="inputBox" type="text" name="amit" >
+		</td>
+		<td><span id="hello">WELCOME TO JAVASCRIPT</span></td>
+	</tr>
+	<tr>
+		<td>
+			<input type="button" name="submit" value="submit" onclick="return test();">
+			<select name="selectBox" onchange="return selectBox11(this.value);">
+				<option value="ved|1">ved</option>
+				<option value="sand|2">sand</option>
+				<option value="amit|3">amit</option>
+			</select>
+		</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
